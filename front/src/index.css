@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+
+  --color-folha-50: #f1f8f2;
+  --color-folha-100: #dcefe0;
+  --color-folha-500: #2f8f4e;
+  --color-folha-600: #23753e;
+  --color-folha-700: #1b5e32;
+  --color-folha-900: #10351d;
+
+  --color-creme: #fbf7ef;
+  --color-tomate: #e2462f;
+  --color-milho: #f2b134;
+}
+
+body {
+  @apply bg-creme text-stone-800 antialiased;
+}
